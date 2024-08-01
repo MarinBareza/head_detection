@@ -52,7 +52,7 @@ entrance_polygon = entrance_polygon.reshape((-1, 1, 2))
 counter_polygon = np.array([(206, 71), (198, 151), (289, 292), (456, 202), (270, 49)], np.int32)
 counter_polygon = counter_polygon.reshape((-1, 1, 2))
 
-model = YOLO("runs/detect/head_detection15/weights/best.pt")
+model = YOLO("runs/detect/head_detection16/weights/best.pt")
 
 # Open the video file
 video_path = "HD CCTV Camera_cut.mp4"
